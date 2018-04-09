@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode=development",
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base=public --mode=development --hot",
     "prod": "webpack --mode=production"
   },
   "author": "",
